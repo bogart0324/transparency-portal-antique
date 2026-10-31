@@ -21,7 +21,7 @@ export default defineConfig({
   siteUrl: 'https://transparency-portal.bettergov.workers.dev',
   scope: {
     offices: [],
-    places: [{ label: 'Anique', region: 'VI' }],
+    places: [{ label: 'Antique', region: 'VI' }],
     districts: [],
     exclude: [],
   },
