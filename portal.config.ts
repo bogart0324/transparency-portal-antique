@@ -12,21 +12,17 @@
 import { defineConfig } from './src/config';
 
 export default defineConfig({
-  id: 'bohol-province',
+  id: 'antique-province',
   kind: 'province',
-  name: 'Province of Bohol',
-  shortName: 'Bohol',
+  name: 'Province of Antique',
+  shortName: 'Antique',
   operator: { name: 'BetterGov.ph', url: 'https://bettergov.ph' },
   // Where this example is deployed. Change it (or remove it) in your fork.
   siteUrl: 'https://transparency-portal.bettergov.workers.dev',
   scope: {
-    offices: [
-      'Bohol 1st District Engineering Office',
-      'Bohol 2nd District Engineering Office',
-      'Bohol 3rd District Engineering Office',
-    ],
-    places: [{ label: 'Bohol', region: 'VII' }],
-    districts: ['leg:bohol:1st', 'leg:bohol:2nd', 'leg:bohol:3rd'],
+    offices: [],
+    places: [{ label: 'Anique', region: 'VI' }],
+    districts: [],
     exclude: [],
   },
   reporting: { enabled: false },
