@@ -21,7 +21,14 @@ export default defineConfig({
   siteUrl: 'https://transparency-portal.bettergov.workers.dev',
   scope: {
     offices: ['Antique District Engineering Office',],
-    places: [],
+   places: [
+    {
+      label: 'Antique',
+      q: 'Antique',
+      region: 'VI',
+      datasets: ['fmr', 'hfep', 'nia'],
+    },
+  ],
     districts: [],
     exclude: [],
   },
