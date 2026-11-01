@@ -28,11 +28,11 @@ export default defineConfig({
       region: 'VI',
       datasets: ['fmr', 'hfep', 'nia'],
     },
-     {
-      label: 'Antique Airport',
-      q: 'Antique Airport',
+    {
+      label: 'Cangaranan River - Ilaures, Bugasong',
+      q: 'Cangaranan River Ilaures Bugasong',
       region: 'VI',
-      datasets: [],
+      datasets: ['dpwh'],
     },
   ],
     districts: [],
