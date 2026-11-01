@@ -20,8 +20,8 @@ export default defineConfig({
   // Where this example is deployed. Change it (or remove it) in your fork.
   siteUrl: 'https://transparency-portal.bettergov.workers.dev',
   scope: {
-    offices: [],
-    places: [{ label: 'Antique', region: 'VI' }],
+    offices: ['Antique District Engineering Office',],
+    places: [],
     districts: [],
     exclude: [],
   },
