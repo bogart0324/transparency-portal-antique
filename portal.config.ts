@@ -28,6 +28,12 @@ export default defineConfig({
       region: 'VI',
       datasets: ['fmr', 'hfep', 'nia'],
     },
+     {
+      label: 'Antique Airport',
+      q: 'Antique Airport',
+      region: 'VI',
+      datasets: [],
+    },
   ],
     districts: [],
     exclude: [],
