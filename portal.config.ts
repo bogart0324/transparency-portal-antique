@@ -19,9 +19,12 @@ export default defineConfig({
   operator: { name: 'BetterGov.ph', url: 'https://bettergov.ph' },
   // Where this example is deployed. Change it (or remove it) in your fork.
   siteUrl: 'https://transparency-portal.bettergov.workers.dev',
-  scope: {
-    offices: ['Antique District Engineering Office',],
-   places: [
+scope: {
+  offices: [
+    'Antique District Engineering Office',
+  ],
+
+  places: [
     {
       label: 'Antique',
       q: 'Antique',
@@ -29,14 +32,40 @@ export default defineConfig({
       datasets: ['fmr', 'hfep', 'nia'],
     },
     {
-      label: 'Cangaranan River - Ilaures, Bugasong',
+      label: 'Hamtic Irrigation',
+      q: 'Hamtic',
+      datasets: ['nia'],
+    },
+    {
+      label: 'Sibalom Irrigation',
+      q: 'Sibalom',
+      datasets: ['nia'],
+    },
+    {
+      label: 'Barbaza Irrigation',
+      q: 'Barbaza',
+      datasets: ['nia'],
+    },
+    {
+      label: 'Pandan Irrigation',
+      q: 'Pandan',
+      datasets: ['nia'],
+    },
+    {
+      label: 'Libertad Irrigation',
+      q: 'Libertad',
+      datasets: ['nia'],
+    },
+    {
+      label: 'Cangaranan River - Ilaures',
       q: 'Cangaranan River Ilaures Bugasong',
       region: 'VI',
       datasets: ['dpwh'],
     },
   ],
-    districts: [],
-    exclude: [],
-  },
+
+  districts: [],
+  exclude: [],
+},
   reporting: { enabled: false },
 });
